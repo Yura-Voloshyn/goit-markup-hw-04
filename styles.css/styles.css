@@ -173,7 +173,11 @@ ul {
   list-style-type: none;
   display: flex;
 }
-
+.antena {
+  content: '';
+  border: none;
+  background-color: #f5f4fa;
+}
 .section-pluses {
   padding-top: var(--between-section-margin);
 }
