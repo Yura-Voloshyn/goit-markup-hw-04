@@ -203,7 +203,7 @@ ul {
   padding-top: var(--between-section-margin);
 }
 .pluses-title {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .section-list > li:nth-child(-n + 3) {
   margin-right: var(--between-list-margin);
