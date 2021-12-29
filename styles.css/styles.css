@@ -367,10 +367,12 @@ ul {
   padding: 0;
   margin: 0;
   border: none;
-  fill: var(--social-icon-color);
+
   background-color: var(--footer-text-color);
+  justify-content: center;
+  align-items: center;
 }
-.icon-client {
+.client-link {
   content: '';
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -379,8 +381,8 @@ ul {
 .clients-item:nth-child(-n + 5) {
   margin-right: 30px;
 }
-.icon-client:hover,
-.icon-client:focus {
+.client-link:hover,
+.client-link:focus {
   content: '';
   fill: var(--hover-color);
   border: 1px solid var(--hover-color);
@@ -542,7 +544,6 @@ ul {
 .joinus {
   display: inline-block;
   margin-left: 70px;
-  margin-top: 12px;
 }
 .joinus-title {
   font-size: 14px;
@@ -576,6 +577,7 @@ ul {
 }
 .footer-joinus {
   display: flex;
+  align-items: baseline;
 }
 .icon-ftr-social {
   content: '';
