@@ -364,19 +364,17 @@ ul {
   list-style-type: none;
   content: '';
   display: flex;
-  padding: 0;
-  margin: 0;
   border: none;
-
-  background-color: var(--footer-text-color);
+  width: 170px;
+  height: 92px;
   justify-content: center;
   align-items: center;
-}
-.client-link {
-  content: '';
+  fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: var(--social-icon-color);
+}
+.icon-client {
+  content: '';
 }
 .clients-item:nth-child(-n + 5) {
   margin-right: 30px;
